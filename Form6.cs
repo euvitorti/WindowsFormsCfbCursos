@@ -16,5 +16,12 @@ namespace WindowsForms
         {
             InitializeComponent();
         }
+
+        // Tente fazer isso com eventos
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBoxInicialDate.Text =  monthCalendar1.SelectionStart.ToShortDateString();
+            textBoxFinalDate.Text = monthCalendar1.SelectionEnd.ToShortDateString();
+        }
     }
 }
