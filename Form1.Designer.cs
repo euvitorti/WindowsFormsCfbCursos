@@ -159,6 +159,7 @@
             this.menu6ToolStripMenuItem.Name = "menu6ToolStripMenuItem";
             this.menu6ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.menu6ToolStripMenuItem.Text = "Menu 6";
+            this.menu6ToolStripMenuItem.Click += new System.EventHandler(this.menu6ToolStripMenuItem_Click);
             // 
             // Form1
             // 
