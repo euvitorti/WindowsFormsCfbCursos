@@ -75,7 +75,6 @@
             this.Controls.Add(this.textBoxInicialDate);
             this.Controls.Add(this.monthCalendar1);
             this.Name = "Form6";
-            this.Text = "Month Calendar";
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -70,5 +70,19 @@ namespace WindowsForms
             Form6 form6 = new Form6();
             form6.ShowDialog();
         }
+
+        private void MenuNotificacao_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            if(e.ClickedItem.Name.ToString() == "toolStripMenuItemClose")
+            {
+                this.Close();
+            } else if (e.ClickedItem.Name.ToString() == "toolStripMenuItemRestore")
+            {
+                this.WindowState = FormWindowState.Normal;
+            } else if (e.ClickedItem.Name.ToString() == "toolStripMenuItemMessage")
+            {
+                MessageBox.Show("Ok");
+            }
+        }
     }
 }
