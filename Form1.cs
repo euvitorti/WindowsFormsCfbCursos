@@ -81,7 +81,7 @@ namespace WindowsForms
                 this.WindowState = FormWindowState.Normal;
             } else if (e.ClickedItem.Name.ToString() == "toolStripMenuItemMessage")
             {
-                MessageBox.Show("Ok");
+                MessageBox.Show("It's ok");
             }
         }
     }
